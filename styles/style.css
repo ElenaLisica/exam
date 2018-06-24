@@ -1,3 +1,18 @@
+@font-face{
+font-family: "Aleo";
+src:url('../fonts/Aleo-Regular.otf');
+font-style: normal;
+font-weight: normal;
+}
+
+@font-face{
+font-family: "JosefinSans";
+src:url('../fonts/JosefinSans-Regular.ttf') format('ttf');
+font-style: normal;
+font-weight: normal;
+}
+
+
 *{
 	box-sizing: border-box;
 }
@@ -11,8 +26,10 @@ header{
 	height: 100vh;
 	color:white;
 	background: url("../img/Image_header.jpg");
-
-
+ 	position: relative;
+  	min-height: 100vh;
+    background-size: cover;
+    font-family: "JosefinSans";
 }
 header h1{
 padding-top: 30vh;
@@ -33,6 +50,7 @@ color: rgb(255,255,255);
 text-align: center;
 }
 header input{
+margin-top: 34px;
 font-size: 14px;
 letter-spacing: 3px;
 line-height: 26px;
@@ -43,8 +61,10 @@ height: 60px;
 background-color: #ffffff;
 margin-right: 0px;
 border:none;
+
 }
 header button{
+margin-top: 34px;
 width: 150px;
 height: 60px;
 background-color: #5373fd;
@@ -56,8 +76,11 @@ line-height: 26px;
 color: rgb(255,255,255);
 text-align: center;
 text-transform: uppercase;
+font-family: "Aleo";
 }
+
 .scroll p{
+
 font-size: 14px;
 letter-spacing: 3px;
 line-height: 26px;
@@ -65,31 +88,74 @@ color: rgb(255,255,255);
 text-align: center;
 padding-top: 120px;
 margin:0px; 
+
 }
+
+
 .header_footer{
 width: 100%;
 height: 80px;
 background-color: #5373fd;
-margin-bottom:  0px;
-padding-bottom: 0px;
-}
-
-.header_footer 
-{
-padding-left:331px;
+margin-top:  52px;
+padding-top: 25px;
+padding-left:200px;
 font-size: 24px;
 letter-spacing: 2px;
 line-height: 26px;
 color: rgb(255,255,255);
 font-weight: bold;
 text-transform: uppercase;
+
 }
 
+.Bhromaon{
+	float: left;
+	margin-left:  50px;
+
+}
 .other_part{
+	margin-right: 50px;
+
+}
+.other_part a{
 font-size: 14px;
 line-height: 26px;
 color: rgb(255,255,255);
 text-transform: uppercase;
 float: right;
-margin-left: 43px;
+padding-left: 20px;
+font-family: "Aleo";
+}
+
+section .second_part{
+	  background: url("../img/Rectangle7.jpg") no-repeat $side-gap center;
+    background-size: contain;
+     margin-top: 175px;
+            margin-bottom: 175px;
+}
+
+.text_s_p{
+	max-width: 534px;
+}
+
+.second_part h2{
+font-size: 36px;
+line-height: 26px;
+color: rgb(255,255,255);
+}
+
+.second_part p{
+width: 539px;
+height: 143px;
+font-size: 16px;
+letter-spacing: 2px;
+line-height: 26px;
+color: rgb(232,232,232);
+}
+
+.second_part button{
+	font-size: 16px;
+letter-spacing: 1px;
+line-height: 26px;
+color: rgb(255,255,255);
 }
