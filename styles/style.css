@@ -5,3 +5,91 @@
 html{
 	 border:16px solid white;
 }
+header{
+
+	text-align:center;
+	height: 100vh;
+	color:white;
+	background: url("../img/Image_header.jpg");
+
+
+}
+header h1{
+padding-top: 30vh;
+font-size: 48px;
+letter-spacing: 5px;
+line-height: 26px;
+color: rgb(255,255,255);
+font-weight: bold;
+text-align: center;
+text-transform: uppercase;
+}
+
+header p{
+font-size: 22px;
+letter-spacing: 7px;
+line-height: 26px;
+color: rgb(255,255,255);
+text-align: center;
+}
+header input{
+font-size: 14px;
+letter-spacing: 3px;
+line-height: 26px;
+color: rgb(153,153,153);
+text-align: center;
+width: 500px;
+height: 60px;
+background-color: #ffffff;
+margin-right: 0px;
+border:none;
+}
+header button{
+width: 150px;
+height: 60px;
+background-color: #5373fd;
+border: 2px solid #ffffff;
+margin-left: 0px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 26px;
+color: rgb(255,255,255);
+text-align: center;
+text-transform: uppercase;
+}
+.scroll p{
+font-size: 14px;
+letter-spacing: 3px;
+line-height: 26px;
+color: rgb(255,255,255);
+text-align: center;
+padding-top: 120px;
+margin:0px; 
+}
+.header_footer{
+width: 100%;
+height: 80px;
+background-color: #5373fd;
+margin-bottom:  0px;
+padding-bottom: 0px;
+}
+
+.header_footer 
+{
+padding-left:331px;
+font-size: 24px;
+letter-spacing: 2px;
+line-height: 26px;
+color: rgb(255,255,255);
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.other_part{
+font-size: 14px;
+line-height: 26px;
+color: rgb(255,255,255);
+text-transform: uppercase;
+float: right;
+margin-left: 43px;
+}
