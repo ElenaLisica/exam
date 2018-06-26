@@ -15,12 +15,20 @@ font-weight: normal;
 
 *{
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
-html{
+body{
 	 border:16px solid white;
 }
-header{
+.container
+{
+max-width: 1110px;
+margin:0 auto;
+}
+
+
+.page_1{
 
 	text-align:center;
 	height: 100vh;
@@ -31,7 +39,7 @@ header{
     background-size: cover;
     font-family: "JosefinSans";
 }
-header h1{
+.page_1 h1{
 padding-top: 30vh;
 font-size: 48px;
 letter-spacing: 5px;
@@ -42,14 +50,14 @@ text-align: center;
 text-transform: uppercase;
 }
 
-header p{
+.page_1 p{
 font-size: 22px;
 letter-spacing: 7px;
 line-height: 26px;
 color: rgb(255,255,255);
 text-align: center;
 }
-header input{
+.page_1 input{
 margin-top: 34px;
 font-size: 14px;
 letter-spacing: 3px;
@@ -63,13 +71,13 @@ margin-right: 0px;
 border:none;
 
 }
-header button{
+.page_1 button{
 margin-top: 34px;
 width: 150px;
 height: 60px;
 background-color: #5373fd;
 border: 2px solid #ffffff;
-margin-left: 0px;
+margin-left: -5px;
 font-size: 14px;
 letter-spacing: 1px;
 line-height: 26px;
@@ -110,9 +118,14 @@ text-transform: uppercase;
 
 .Bhromaon{
 	float: left;
-	margin-left:  50px;
-
+	margin-left: 0px;
 }
+
+.page_2{
+  background: url("../img/Rectangle7.jpg") center no-repeat;
+background-size: cover;
+}
+
 .other_part{
 	margin-right: 50px;
 
@@ -128,7 +141,7 @@ font-family: "Aleo";
 }
 
 section .second_part{
-	  background: url("../img/Rectangle7.jpg") no-repeat $side-gap center;
+	
     background-size: contain;
      margin-top: 175px;
             margin-bottom: 175px;
@@ -138,13 +151,13 @@ section .second_part{
 	max-width: 534px;
 }
 
-.second_part h2{
+.page_2 h2{
 font-size: 36px;
 line-height: 26px;
 color: rgb(255,255,255);
 }
 
-.second_part p{
+.page_2 p{
 width: 539px;
 height: 143px;
 font-size: 16px;
@@ -153,9 +166,189 @@ line-height: 26px;
 color: rgb(232,232,232);
 }
 
-.second_part button{
+.page_2 button{
 	font-size: 16px;
 letter-spacing: 1px;
 line-height: 26px;
 color: rgb(255,255,255);
+}
+
+.page_2_container{
+	 padding-top: 122px;
+    padding-bottom: 116px;
+    display: flex;
+}
+
+
+.page_2 h3{
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 53px;
+}
+
+.page_2p{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 0;
+}
+
+.page_2 p:nth-child(2){
+    padding-bottom: 27px;
+}
+
+.text_s_p{
+    margin: 0;
+}
+
+.page_2 img{
+	max-width: 350px;
+   min-height: 220px;
+}
+
+.container_img_1{
+    padding-left: 5%;
+    margin: 0;
+}
+
+.container_img_2{
+   text-align: right;
+}
+
+
+.places{
+    background: #333333;
+    text-align: center;
+}
+
+.select_container{
+    padding-bottom:30px;
+    padding-top: 30px;
+}
+
+.places p{
+    font-family: "Aleo";
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 47px;
+    color:white;
+}
+
+.places section{
+    display: inline-block;
+}
+
+
+
+[class*=icon_container] {
+    margin: 0;
+    position: relative;
+}
+
+.icon_container_1{
+    margin-left: -7px;
+}
+
+.icon_container-2{
+    margin-left: 15%;
+}
+
+.icon_container_3{
+    margin-left:15%;
+}
+
+[class*=ellips]{
+    position: absolute;
+    bottom: 80px;
+}
+
+.ellipse_1{
+    left: 62px;
+}
+
+.ellipse_2{
+    left: 53px;
+}
+
+.ellipse_3{
+   left: 59px;
+}
+
+span img{
+    margin-top: 15px;
+    display: block;
+}
+
+.page_3{
+    background: url("../img/page_3.jpg") no-repeat center;
+    background-size: cover;
+    color:white;
+}
+
+.page_4{
+    background: url("../img/page_4.png") no-repeat center;
+    background-size: cover;
+    color:white;
+}
+}
+
+.box{
+    padding-top: 229px;
+    padding-bottom: 101px;
+}
+
+.grey_box{
+    max-width: 540px;
+    text-align: left;
+     background:rgba(33, 32, 33, 0.8);
+     margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 26px;
+}
+
+.grey_box h5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 44px;
+    padding-bottom: 22px;
+}
+.grey_box h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.grey_box p{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    text-align: left;
+    padding-bottom: 44px;
+
+}
+.grey_box .button{
+    font-family:  "Aleo";
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 21px 71px 21px 61px;
+    border: none;
+    margin-bottom: 49px;
+    background: linear-gradient(45deg, #496bfe 38%,#5474fd 10%);
+}
+
+.page_3 .grey_box{
+    margin-left: 0 ;
+}
+.page_4 .grey_box{
+    margin-right: 0;
 }
